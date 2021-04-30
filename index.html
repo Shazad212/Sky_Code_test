@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reward Service</title>
+</head>
+<body>
+     <h1>Sky Reward Service</h1>
+
+     <h2>Account Number</h2>
+    <div class="container">
+     
+
+        
+   
+    <input type="text" value="Enter Account Number" />
+    <br/>
+    <input type="button" value="click here" />
+     </div>
+    
+<br/>
+<br/>
+
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<h3>Please select a channel and press submit to see what exclusive Sky rewards are available to you</h3>
+<style>
+    h1 
+        {
+            color: rgb(156, 48, 48);
+	text-align: center;
+		
+}
+    
+h3 {
+    color: rgb(156, 48, 48);
+    text-align:left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+div {
+    padding-left: 100px;
+    box-sizing: border-box;
+    border: 100px;
+    
+}
+.container {
+    border: 1px solid black;
+    float: left;
+  width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  padding: 50px; /* if you want space between the images */
+    
+}
+.wrapper {
+    border: 1px solid black;
+    text-align: left;
+    loat: left;
+  width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  padding: 50px; /* if you want space between the images */
+    
+}
+
+body {
+    background-color: ivory;
+}
+</style>
+
+<div class="wrapper">
+    
+<input type="checkbox" id="channel1" name="channel" value="Sports Channel Reward: Champions League Ticket">
+<label for="channel1"> Sports</label><br>
+
+<input type="checkbox" id="channel2" name="channel" value="Sorry there are no rewards available at this time for the kids channel.">
+<label for="channel2">  Kids </label><br>
+
+<input type="checkbox" id="channel3" name="channel" value="Movie Channel Reward: Pirates of the Caribbean collection">
+<label for="channel3">  Movies </label><br>
+
+<input type="checkbox" id="channel4" name="channel" value="Music Channel Reward: Karaoke Pro Microphone">
+<label for="channel4">  Music </label><br>
+
+<input type="checkbox" id="channel5" name="channel" value="Sorry there are no rewards available at this time for the News channel">
+<label for="channel5">  News </label><br>
+
+<input type="button" value="Submit" onclick="getChecked()">
+
+<div id='selection'></div>
+
+</div>
+</fieldset>
+<br/>
+<br/>
+<br/>
+
+    <script src="main.js"></script>
+</body>
+</html>
